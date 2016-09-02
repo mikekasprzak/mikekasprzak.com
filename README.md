@@ -1,2 +1,4 @@
 # me-dot-com
-My Resume/Portfolio
+This is the source for my Resume/Portfolio website.
+
+https://mikekasprzak.com
