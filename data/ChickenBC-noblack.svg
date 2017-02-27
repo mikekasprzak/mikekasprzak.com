@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- generated at drububu.com  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   preserveAspectRatio="xMinYMin meet"
+   x="0px"
+   y="0px"
+   width="16px"
+   height="16px"
+   viewBox="0 0 16 16"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="ChickenBC-noblack.svg">
+  <metadata
+     id="metadata32">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs30" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     id="namedview28"
+     showgrid="false"
+     inkscape:zoom="59"
+     inkscape:cx="8.5695062"
+     inkscape:cy="7.556299"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     d="M6 0h1v1h1v1h1v-1h1v1h1v1h-5v-3z"
+     fill="rgb(184,22,52)"
+     id="path6" />
+  <path
+     d="M6 3h6v1h1v2h1v4h1v1h-2v1h3v4h-13v-2h1v-1h1v-3h2v-1h-1v-1h-1v-1h-1v-2  h1v-1h1v-1z"
+     fill="rgb(89,154,210)"
+     id="path10" />
+  <path
+     d="M8 5h2v2h-2v-2z"
+     fill="rgb(60,67,159)"
+     id="path12" />
+  <path
+     d="M3 6h1v1h1v1h-1v1h1v-1h1v1h1v1h-7v-1h1v-1h1v-1h1v-1z"
+     fill="rgb(229,204,33)"
+     id="path14" />
+  <path
+     d="M4 8h1v1h-1v-1z"
+     fill="rgb(19,24,176)"
+     id="path16" />
+  <path
+     d="M2 10h3v3h-1v-2h-1v1h-1v-2z"
+     fill="rgb(184,22,52)"
+     id="path20" />
+  <path
+     d="M13 11h3v1h-3v-1z"
+     fill="rgb(60,67,159)"
+     id="path22" />
+  <path
+     d="M11 12h1v1h-1v-1z"
+     fill="rgb(60,67,159)"
+     id="path24" />
+  <path
+     d="M10 13h1v1h-1v-1z"
+     fill="rgb(60,67,159)"
+     id="path26" />
+</svg>
