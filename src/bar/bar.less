@@ -20,6 +20,8 @@
 		background: #67a;
 		transition: background 0.1s, color 0.1s;
 
+		border-bottom: 3px solid #67a;
+
 		& > * {
 			margin-right: 0.25em;
 			vertical-align: middle;
@@ -31,11 +33,15 @@
 		&.active {
 			color: #456;
 			background: #cde;
+
+			border-bottom: 3px solid #456;
 		}
 
 		&:hover {
 			color: #fff;
 			background: #e76;
+
+			border-bottom: 3px solid #e76;
 		}
 	}
 }
