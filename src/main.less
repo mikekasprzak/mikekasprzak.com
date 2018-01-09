@@ -6,6 +6,7 @@
 	min-width: 100%;
 	min-height: 100%;
 
+	opacity: 0;
 }
 
 #content {
@@ -14,4 +15,16 @@
 	bottom: 0;
 	min-width: 100%;
 	min-height: 100%;
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+.fadein {
+	animation-name: fadein;
+	animation-duration: 2s;
+
+	opacity: 1 !important;
 }

@@ -71,7 +71,7 @@ class Main extends Component {
 
 		return (
 			<div>
-				<video autoplay muted loop id="vid">
+				<video autoplay muted loop id="vid" class="fadein">
 					<source src="video/ready.mp4" type="video/mp4" />
 				</video>
 
