@@ -2,6 +2,9 @@ import {h, render, Component}			from 'preact/preact';
 import UIImage							from 'ui/image/image';
 import UILink							from 'ui/link/link';
 
+import Bar								from 'bar/bar';
+
+
 // @ifdef DEBUG
 //import {}								from 'preact-devtools/devtools';
 // @endif
@@ -70,6 +73,8 @@ class Main extends Component {
 			<div>
 				<div>Mike Kasprzak</div>
 				<div>Resume: <a href="Resume-MikeKasprzak.pdf">PDF</a></div>
+
+				<Bar />
 			</div>
 		);
 	}

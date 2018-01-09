@@ -1,0 +1,41 @@
+
+.bar {
+	display: inline-block;
+	position: absolute;
+	right: 1em;
+	bottom: 1em;
+
+	font-size: 2em;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+
+	box-shadow: 0 0 6px rgba(0,0,100,0.2);
+
+	& > .ui-button {
+		display: inline-block;
+		padding: 0.25em;
+		line-height: 1.5em;
+		height: 1.5em;
+
+		color: #def;
+		background: #67a;
+		transition: background 0.2s, color 0.2s;
+
+		& > * {
+			margin-right: 0.25em;
+			vertical-align: middle;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+		&.active {
+			color: #456;
+			background: #cde;
+		}
+
+		&:hover {
+			color: #fff;
+			background: #e76;
+		}
+	}
+}
