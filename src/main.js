@@ -71,10 +71,16 @@ class Main extends Component {
 
 		return (
 			<div>
-				<div>Mike Kasprzak</div>
-				<div>Digital Entertainment/Systems Engineer</div>
+				<video autoplay muted loop id="vid">
+					<source src="video/ready.mp4" type="video/mp4" />
+				</video>
 
-				<Bar />
+				<div id="content">
+					<div>Mike Kasprzak</div>
+					<div>Digital Entertainment/Systems Engineer</div>
+
+					<Bar />
+				</div>
 			</div>
 		);
 	}
