@@ -1,5 +1,6 @@
 
 TARGET				:=	me
+ROOT				:=	.
 
 INPUT_DIRS			+=	src/
 INPUT_DIRS			+=	external/preact/
