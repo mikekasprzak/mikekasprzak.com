@@ -72,7 +72,7 @@ class Main extends Component {
 		return (
 			<div>
 				<div>Mike Kasprzak</div>
-				<div>Resume: <a href="Resume-MikeKasprzak.pdf">PDF</a></div>
+				<div>Entertainment Engineer</div>
 
 				<Bar />
 			</div>
