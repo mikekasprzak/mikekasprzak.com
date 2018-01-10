@@ -2,7 +2,9 @@ import {h, render, Component}			from 'preact/preact';
 import UIImage							from 'ui/image/image';
 import UILink							from 'ui/link/link';
 
-import Bar								from 'bar/bar';
+import PageHome							from 'page/home';
+import PageAbout						from 'page/about';
+import PageProjects						from 'page/projects';
 
 
 // @ifdef DEBUG
@@ -69,20 +71,32 @@ class Main extends Component {
 	render( props, state ) {
 		document.title = state.url.pathname;
 
-		return (
-			<div>
-				<video autoplay muted loop id="vid" class="fadein">
-					<source src="video/ready.mp4" type="video/mp4" />
-				</video>
+		if ( state.url.pathname == '/' ) {
+			return <PageHome />;
+		}
+		else if ( state.url.pathname == '/about' ) {
+			return <PageAbout />;
+		}
+		else if ( state.url.pathname == '/project' ) {
+			return <PageProjects />;
+		}
 
-				<div id="content">
-					<div>Mike Kasprzak</div>
-					<div>Digital Entertainment/Systems Engineer</div>
+		return null;
 
-					<Bar />
-				</div>
-			</div>
-		);
+//		return (
+//			<div>
+//				<video autoplay muted loop id="vid" class="fadein">
+//					<source src="video/ready.mp4" type="video/mp4" />
+//				</video>
+//
+//				<div id="content">
+//					<div>Mike Kasprzak</div>
+//					<div>Digital Entertainment/Systems Engineer</div>
+//
+//					<Bar />
+//				</div>
+//			</div>
+//		);
 	}
 }
 
