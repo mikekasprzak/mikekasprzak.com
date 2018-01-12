@@ -20,4 +20,14 @@
 	shallow = true
 [submodule "external/marked-jsx"]
 	path = external/marked-jsx
-	url = https://github.com/mikekasprzak/marked-jsx
+	url = https://github.com/mikekasprzak/marked-jsx.git
+	shallow = true
+[submodule "external/ui-markdown"]
+	path = external/ui-markdown
+	url = https://github.com/mikekasprzak/ldui-markdown.git
+	shallow = true
+[submodule "external/shallow"]
+	path = external/shallow
+	url = https://github.com/mikekasprzak/shallow.git
+	shallow = true
+
