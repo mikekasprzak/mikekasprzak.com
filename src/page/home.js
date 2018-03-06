@@ -6,7 +6,7 @@ export default class PageHome extends Component {
 		return (
 			<div class="page-home">
 				<video autoplay muted loop id="vid" class="fadein">
-					<source src="video/ready.mp4" type="video/mp4" />
+					<source src="video/ready-clipped.mp4" type="video/mp4" />
 				</video>
 
 				<div id="content">
