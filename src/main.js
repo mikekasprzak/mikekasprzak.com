@@ -69,7 +69,7 @@ class Main extends Component {
 	}
 
 	render( props, state ) {
-		document.title = state.url.pathname;
+		document.title = "Mike Kasprzak" + state.url.pathname;
 
 		if ( state.url.pathname == '/' ) {
 			return <PageHome />;
