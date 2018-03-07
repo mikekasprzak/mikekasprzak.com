@@ -1,5 +1,5 @@
 ---
-title: Game Breakdown: Neuromancer
+title: "Game Breakdown: Neuromancer"
 layout: tv
 active: true
 platform: c64 amiga

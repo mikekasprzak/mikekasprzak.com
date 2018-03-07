@@ -1,6 +1,7 @@
 ---
 title: High Tech Home Gardening (Mk1)
 layout: hardware
+platform: arduino
 ---
 
 Just because, I decided to play around with arduinos and sensors, see if I could monitor mositure levels, then build a small gizmo I could check.

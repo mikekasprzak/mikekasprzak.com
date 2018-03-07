@@ -2,6 +2,7 @@
 title: Quack Game Engine
 layout: software
 platform: pc linux
+unfinished: true
 ---
 
 Built a pretty advanced game engine that supported some pretty cool things, including Live Coding:

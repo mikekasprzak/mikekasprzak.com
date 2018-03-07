@@ -1,5 +1,6 @@
 ---
 title: iPhone Game Projects book
+layout: book
 platform: book
 commercial: true
 ---

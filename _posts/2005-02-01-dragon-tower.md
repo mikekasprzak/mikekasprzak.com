@@ -1,5 +1,6 @@
 ---
 title: Dragon Tower
+layout: game
 platform: j2me
 commercial: true
 ---

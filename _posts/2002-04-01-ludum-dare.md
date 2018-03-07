@@ -1,6 +1,6 @@
 ---
 title: Ludum Dare Game Jam      
-layout: game
+layout: software
 active: true
 ---
 

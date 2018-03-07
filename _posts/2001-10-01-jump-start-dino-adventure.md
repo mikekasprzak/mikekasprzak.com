@@ -1,5 +1,5 @@
 ---
-title: Jump*Start: Dino Adventure      
+title: "Jump*Start: Dino Adventure"
 layout: game
 commercial: true
 platform: gbc
