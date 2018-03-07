@@ -10,9 +10,10 @@ export default class PageHome extends Component {
 				</video>
 
 				<div id="content">
-					<div>Mike Kasprzak</div>
-					<div>Digital Entertainment/Systems Engineer</div>
-
+					<div class="center">
+						<div class="header">Mike Kasprzak</div>
+						<div class="subtext">Portfolio</div>
+					</div>
 					<Bar />
 				</div>
 			</div>

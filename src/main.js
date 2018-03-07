@@ -4,7 +4,7 @@ import UILink							from 'ui/link/link';
 
 import PageHome							from 'page/home';
 import PageAbout						from 'page/about';
-import PageProjects						from 'page/projects';
+import PageProject						from 'page/project';
 
 
 // @ifdef DEBUG
@@ -78,7 +78,7 @@ class Main extends Component {
 			return <PageAbout />;
 		}
 		else if ( state.url.pathname == '/project' ) {
-			return <PageProjects />;
+			return <PageProject />;
 		}
 
 		return null;
