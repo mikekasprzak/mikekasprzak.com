@@ -48,6 +48,9 @@ layout: default
           {% if post.platform %}
           <span>[{{post.platform}}]</span>
           {% endif %}
+	{% if post.description %}
+	  <div class="subtext">{{post.description}}</div>
+	{% endif %}
         </h3>
         {% if site.show_excerpts %}
           {{ post.excerpt }}

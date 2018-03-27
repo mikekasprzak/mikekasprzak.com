@@ -1,7 +1,7 @@
 ---
 title: BEARly Seasoned
 layout: game
-platform: js
+platform: js emscripten
 ---
 
 A game made over a weekend in 24 hours, just because.

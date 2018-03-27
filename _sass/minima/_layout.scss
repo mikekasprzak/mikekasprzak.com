@@ -238,6 +238,12 @@
     @include relative-font-size(2.25);
   }
 
+  .subtext {
+    font-size: 0.75em;
+    color: $grey-color;
+    margin-left: 1em;
+  }
+
   > li {
     &:first-child .post-list-year {
   	  margin-top: 0;

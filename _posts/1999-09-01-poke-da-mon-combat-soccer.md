@@ -4,6 +4,7 @@ layout: game
 jam: bung
 platform: gb gbc
 awards: true
+description: award winning homebrew games
 ---
 
 Bung 1999
