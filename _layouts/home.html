@@ -9,11 +9,11 @@ layout: default
 
   {{ content }}
 
-  <div>Sorry! This page is still a work in progress. Lots of content still to add.</div>
-  <div>TODO: Add way to filter content by metadata (commercial, etc)</div>
-
   {% if site.posts.size > 0 %}
     <h1 class="post-list-heading">{{ page.list_title | default: "Projects" }}</h1>
+    <div>Sorry! This page is still a work in progress. I'm still populating it with content.</div>
+    <div>TODO: Add way to filter content by metadata (commercial, etc)</div>
+    <br />
     {% assign last_date = "" %}
     {% assign last_year = "" %}
     <ul class="post-list">
@@ -28,25 +28,28 @@ layout: default
         {% endif %}
         <h3>
           {% if post.layout %}
-          <span>[{{ post.layout }}]</span>
+          <span class="layout {{ post.layout }}">{{ post.layout }}</span>
           {% endif %}
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title }}
           </a>
           {% if post.active == true %}
-          <span>[ACTIVE]</span>
+          <span class="layout active">ACTIVE</span>
           {% endif %}
           {% if post.commercial == true %}
-          <span>[COMMERCIAL]</span>
+          <span class="layout commercial" title="Commercial">$$$</span>
           {% endif %}
           {% if post.unfinished == true %}
-          <span>[UNFINISHED]</span>
+          <span class="layout unfinished">unfinished</span>
+          {% endif %}
+          {% if post.award == true %}
+          <span class="layout award" title="Award Winning">🏆</span>
           {% endif %}
           {% if post.jam %}
-          <span>[Event: {{post.jam}}]</span>
+          <span class="event"><strong>Event</strong>: {{post.jam}}</span>
           {% endif %}
           {% if post.platform %}
-          <span>[{{post.platform}}]</span>
+          <span class="platform"><strong>platform</strong>: {{post.platform}}</span>
           {% endif %}
 	{% if post.description %}
 	  <div class="subtext">{{post.description}}</div>

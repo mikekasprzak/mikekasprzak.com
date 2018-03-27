@@ -3,7 +3,8 @@ title: 'Game Breakdown: Neuromancer'
 layout: tv
 active: true
 platform: c64 amiga
-description: Video project that takes an exhaustive look at little known classic game
+description: Video project that takes an exhaustive look at little known classic game.
+  Custom software for tracking progress
 ---
 
 This is an ongoing video project taking a look at a lesser known 80's video game I'm quite fond of.

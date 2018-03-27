@@ -3,7 +3,7 @@ title: Poke da Mon and Combat Soccer
 layout: game
 jam: bung
 platform: gb gbc
-awards: true
+award: true
 description: award winning homebrew games
 ---
 

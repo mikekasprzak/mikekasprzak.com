@@ -244,6 +244,65 @@
     margin-left: 1em;
   }
 
+  .platform {
+    background: #DDD;
+    padding: 0.125em 0.5em;
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+  .event {
+    color: brown;
+    background: yellow;
+    padding: 0.125em 0.5em;
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+
+  .layout {
+    background: $grey-color-light;
+    color: white;
+    padding: 0.125em 1em;
+    border-radius: 1em;
+    font-size: 0.8em;
+    text-transform: uppercase;
+
+    &.software {
+      background: purple;
+    }
+    &.hardware {
+      background: green;
+    }
+    &.game {
+      background: #B11;
+    }
+    &.demoscene {
+      background: #198;
+    }
+    &.irl {
+      background: gray;
+    }
+    &.recipe {
+      background: blue;
+    }
+    &.tv {
+      background: #51A;
+    }
+    &.book {
+      background: #C71;
+    }
+    &.commercial {
+      background: green;
+      color: #8F8;
+    }
+    &.active {
+      background: red;
+    }
+    &.award {
+      background: orange;
+      color: brown;
+    }
+  }
+
   > li {
     &:first-child .post-list-year {
   	  margin-top: 0;
