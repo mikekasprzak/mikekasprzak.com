@@ -1,10 +1,9 @@
 ---
-title: Quack engine
+title: Quack engine (formerly PlayMore)
 layout: software
-platform: pc linux
-unfinished: true
-description: advanced 2d/3d game engine with support for live editing, live coding,
-  and skeletal animation
+platform: pc linux console
+description: Advanced 2D/3D game engine with support for live editing, live coding,
+  and skeletal animation. Uses a customized Squirrel scripting language
 featured: true
 ---
 
