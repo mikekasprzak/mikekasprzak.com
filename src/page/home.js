@@ -12,7 +12,6 @@ export default class PageHome extends Component {
 				<div id="content">
 					<div class="center">
 						<div class="header">Mike Kasprzak</div>
-						<div class="subtext">Portfolio</div>
 					</div>
 					<Bar />
 				</div>

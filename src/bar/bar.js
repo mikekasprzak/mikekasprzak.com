@@ -10,8 +10,6 @@ export default class Bar extends Component {
 		return (
 			<div class="bar">
 				<UIButton class={cN((Hash == '#!/') ? 'active' : '')} href="#!/"><UIIcon src="home" /></UIButton>
-				<UIButton href="//mikekasprzak.com/project/"><UIIcon src="blueprint" /><span>Projects</span></UIButton>
-				<UIButton href="//toonormal.com"><UIIcon src="journal" /></UIButton>
 				<UIButton href="//mikekasprzak.com/Resume-MikeKasprzak.pdf"><UIIcon src="pdf" /><span>Resume</span></UIButton>
 				<UIButton href="https://github.com/mikekasprzak" target="_blank"><UIIcon src="github" /></UIButton>
 				<UIButton href="https://twitter.com/mikekasprzak" target="_blank"><UIIcon src="twitter" /></UIButton>
