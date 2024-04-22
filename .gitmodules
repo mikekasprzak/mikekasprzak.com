@@ -1,33 +1,33 @@
-[submodule "external/carton"]
-	path = external/carton
-	url = https://github.com/mikekasprzak/carton.git
-	shallow = true
-[submodule "external/ui"]
-	path = external/ui
-	url = https://github.com/mikekasprzak/ldui.git
-	shallow = true
+#[submodule "external/carton"]
+#	path = external/carton
+#	url = https://github.com/mikekasprzak/carton.git
+#	shallow = true
+#[submodule "external/ui"]
+#	path = external/ui
+#	url = https://github.com/mikekasprzak/ldui.git
+#	shallow = true
 [submodule "external/3rd-party/preact"]
 	path = external/3rd-party/preact
 	url = https://github.com/preactjs/preact.git
 	shallow = true
-[submodule "external/svgload"]
-	path = external/svgload
-	url = https://github.com/mikekasprzak/svgload.git
-	shallow = true
-[submodule "external/hashbang"]
-	path = external/hashbang
-	url = https://github.com/mikekasprzak/hashbang.git
-	shallow = true
-[submodule "external/marked-jsx"]
-	path = external/marked-jsx
-	url = https://github.com/mikekasprzak/marked-jsx.git
-	shallow = true
-[submodule "external/ui-markdown"]
-	path = external/ui-markdown
-	url = https://github.com/mikekasprzak/ldui-markdown.git
-	shallow = true
-[submodule "external/shallow"]
-	path = external/shallow
-	url = https://github.com/mikekasprzak/shallow.git
-	shallow = true
+#[submodule "external/svgload"]
+#	path = external/svgload
+#	url = https://github.com/mikekasprzak/svgload.git
+#	shallow = true
+#[submodule "external/hashbang"]
+#	path = external/hashbang
+#	url = https://github.com/mikekasprzak/hashbang.git
+#	shallow = true
+#[submodule "external/marked-jsx"]
+#	path = external/marked-jsx
+#	url = https://github.com/mikekasprzak/marked-jsx.git
+#	shallow = true
+#[submodule "external/ui-markdown"]
+#	path = external/ui-markdown
+#	url = https://github.com/mikekasprzak/ldui-markdown.git
+#	shallow = true
+#[submodule "external/shallow"]
+#	path = external/shallow
+#	url = https://github.com/mikekasprzak/shallow.git
+#	shallow = true
 
